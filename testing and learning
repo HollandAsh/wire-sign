@@ -1,0 +1,6 @@
+
+var guest = prompt("What is your name?"); 
+
+
+
+alert("Hello " + guest + " , "welcome to Github!");
