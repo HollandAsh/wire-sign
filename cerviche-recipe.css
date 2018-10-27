@@ -24,11 +24,14 @@ font-size: 150%;
 
 #ingredients {
 	text-align: left;
-	margin-left: 33%;
+	margin-left: 30%;
 	padding: 3%;
 	
 }
 
+#howTo {
+  text-decoration: underline;
+}
 
 
 #directions {
@@ -88,6 +91,10 @@ border-width: 10%;
 padding-bottom: 1.5%;
 }
 
+.steps {
+  padding: 2%;
+  width: 90%;
+}
 
 #wikiLearn {
 
