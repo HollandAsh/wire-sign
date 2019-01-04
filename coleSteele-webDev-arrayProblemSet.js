@@ -5,8 +5,9 @@ My code solutions for the Cole Steele  - Web Developer Bootcamp: Array Problem S
 
       // reversePrint() - it prints the array in reverse
 
-var array1 = [1,2,"A","B","C",5, 7, 13, 23]; 
-var array2 = ["E","M","A","G","D","N","E"];
+var array1 = ["E","M","A","G","D","N","E"];
+var array2 = [1,2,"A","B","C",5, 7, 13, 23]; 
+
 var newArr = [];
 var counter = 0; 
 
