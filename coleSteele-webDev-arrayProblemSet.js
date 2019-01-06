@@ -1,36 +1,43 @@
-
 /*
 My code solutions for the Cole Steele  - Web Developer Bootcamp: Array Problem Set 
 */
 
-      // reversePrint() - it prints the array in reverse
-
 var array1 = ["E","M","A","G","D","N","E"];
-var array2 = [1,2,"A","B","C",5, 7, 13, 23]; 
+var array2 = [2,2,2,2,2,4,7,9];
 
 var newArr = [];
-var counter = 0; 
+var count = 0; 
+var holder;
+var base = array2[0];
 
+      // reversePrint() - it prints the array in reverse
 
-        function printReverse(){ 
+                    function printReverse(){ 
 
-        array1.forEach(function() {
-        newArr.unshift(array1[counter]);
-        counter++;
+                    array1.forEach(function() {
+                    newArr.unshift(array1[count]);
+                    count++;
 
-        } );
-        console.log(newArr);  
+                    } );
+                    console.log(newArr);  
 
-        }
+                    }
 
-        printReverse();
-        
-       //  :) 
+                    printReverse();
+
+                   //  :) 
 
 
       // uniform() - it checks if the values in the array are all the same or not
 
+                  function uniform(){
+                  for (count = 1; array2[count] === base; count++) {
 
+                  console.log("The values in the array match. Continuing to check the values...");
+                  }
+                  console.log("The values in this array don't match.");
+                  }
+                  uniform();
 
       // sumArray() - it checks the values in an array of numbers and returns the sum of those numbers 
 
