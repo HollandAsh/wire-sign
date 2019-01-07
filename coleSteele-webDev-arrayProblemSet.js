@@ -39,7 +39,16 @@ var base = array2[0];
                   }
                   uniform();
 
+
       // sumArray() - it checks the values in an array of numbers and returns the sum of those numbers 
+
+                  function sumArray(){
+                  array2.forEach(function(num){
+                  count = count + num;
+                  });
+                  console.log(count); 
+                  }
+                  sumArray();
 
 
       // max() - it returns the highest value in an array of numbers
