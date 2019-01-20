@@ -1,0 +1,59 @@
+body {
+  
+  
+}
+
+#card {
+
+ 
+}
+
+h1 {
+
+  padding-left: -10%;
+  text-align: center;
+}
+
+#explainBMI {
+  
+  
+}
+
+.inputMeasures {
+  
+  
+}
+
+.linkToDisclaimer {
+  font-size: 16px;
+}
+
+#disclaimer {
+  
+  font-size: 13px;
+  
+}
+
+a {
+  
+  text-decoration-line: none; 
+}
+
+footer {
+  font-size: 10px;
+}
+
+/*   
+orange sherbet shades
+
+  #ff7400	(255,116,0)
+  #fd8b17	(253,139,23)
+	#ffa242	(255,162,66) - favorite
+  #ffc367	(255,195,103) - 2nd favorite
+  #f9de8a	(249,222,138)
+
+I have not yet decide on the visual design of the page/calculator.
+
+*/ 
+
+
