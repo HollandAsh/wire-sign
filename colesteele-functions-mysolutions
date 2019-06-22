@@ -1,13 +1,36 @@
 /* use with HTML file containing: 
 
-<h1>Factorial Function</h1>
+<h1>CS Javascript Functions Exercises</h1>
 
 <p>Look at this in the console</p>
+
+<p>Created using CodePen</p>
 
 */
 
 
-/*  this function factorializes a number*  - created using CodePen /
+/* This function checks whether a number is even or odd  */
+
+ 
+function isEven(val){
+ 
+  if(val % 2 == 0) {
+    console.log(val + " is an even number.");
+  }
+  
+  else {
+    console.log(val + " is an odd number.";
+  }
+ 
+}
+
+isEven(5);
+isEven(22);
+isEven(456);
+isEven(104623);
+
+
+/*  this function factorializes a number  */
 
 /*  https://codepen.io/HollandAsh/pen/b99d9493163bebe983a0e3496d00a62b?editors=0011  */ 
 
