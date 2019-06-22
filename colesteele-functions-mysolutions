@@ -12,6 +12,7 @@
 /* This function checks whether a number is even or odd  */
 
  
+ 
 function isEven(val){
  
   if(val % 2 == 0) {
@@ -19,7 +20,7 @@ function isEven(val){
   }
   
   else {
-    console.log(val + " is an odd number.";
+    console.log(val + " is an odd number.");
   }
  
 }
