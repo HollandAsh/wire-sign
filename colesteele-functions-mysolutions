@@ -1,4 +1,10 @@
- 
+/* use with HTML file containing: 
+
+<h1>Factorial Function</h1>
+
+<p>Look at this in the console</p>
+
+*/
 
 
 /*  this function factorializes a number*  - created using CodePen /
