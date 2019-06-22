@@ -1,0 +1,29 @@
+ 
+
+
+/*  this function factorializes a number*  - created using CodePen /
+
+/*  https://codepen.io/HollandAsh/pen/b99d9493163bebe983a0e3496d00a62b?editors=0011  */ 
+
+
+function factorial(num){
+  var origin = num;
+  var results;
+  
+  while(num >= 1){
+  
+   for(holder = 1; num >= 1; num--){
+     
+     holder *= num;
+    
+   }
+
+      results = origin + " factorialized equals " + holder;
+      console.log(results); 
+  }
+       
+  }
+
+factorial(7);
+factorial(11);
+factorial(3);
