@@ -6,6 +6,7 @@
 /*  https://codepen.io/HollandAsh/pen/b99d9493163bebe983a0e3496d00a62b?editors=0011  */ 
 
 
+
 function factorial(num){
   var origin = num;
   var results;
@@ -22,8 +23,8 @@ function factorial(num){
       console.log(results); 
   }
        
-  }
-
+  } 
 factorial(7);
 factorial(11);
 factorial(3);
+factorial(23);
