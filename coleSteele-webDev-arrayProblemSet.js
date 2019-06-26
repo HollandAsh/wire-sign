@@ -1,5 +1,7 @@
 /*
-My code solutions for the Cole Steele  - Web Developer Bootcamp: Array Problem Set 
+I was working on the Cole Steele  - Web Developer Bootcamp: Array Problem Set 
+And decided to play around a little. 
+
 */
 
 var array1 = ["E","M","A","G","D","N","E"];
