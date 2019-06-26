@@ -59,3 +59,13 @@ factorial(7);
 factorial(11);
 factorial(3);
 factorial(23);
+
+
+/* kebabToSnake checks a string for dashes (-), and replaces them with underscores (_)  */ 
+
+function kebabToSnake(str){
+   var snakeStyle = str.replace(/-/g, "_");
+   return snakeStyle;
+}
+
+kebabToSnake("Okey-dokey-hokey");
