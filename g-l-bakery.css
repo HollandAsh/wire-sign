@@ -1,0 +1,250 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Exo', sans-serif;
+  /*font-family: arial, helvetica;  */
+ wrap: no-wrap;
+  min-width: 30%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.navigate {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: no-wrap;
+     position: fixed;
+     clear: left;
+    margin: 0.5%;
+    text-shadow: 2px 2px 2px #000; 
+    width: 17%;
+}
+
+/*
+#firstButton {
+  background-color:  #D4C4DE;
+}
+*/
+
+button {
+  float: left;
+  width: auto;
+  height: 3em;
+  opacity: 0.9;
+  text-shadow: 3px 3px 2px #000; 
+  font-size: 110%;
+  font-weight: 600;
+  margin: 4%;
+  background-color: magenta;
+  border-radius: 50%;
+  border-style: none;
+}
+
+button a {
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+button a:hover {
+  color: black;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px #FFF;
+}
+#welcome {
+  display: flex; 
+  position: static;
+  color: lightgray;
+  margin-left: 8%;
+  padding: 0 100px;
+  padding-top: 3%;
+  padding-bottom: 6%;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1227154/macaroon1.jpg");
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  flex-direction: row-reverse;
+  overlap: no-overlap;
+  
+}
+
+
+
+.capitalize {
+   text-transform: uppercase; 
+}
+
+section {
+  overflow: hidden;
+}
+
+.box {
+  position: relative; 
+  padding: 50px; 
+  max-width: 600px;
+  background: rgba(255, 255, 255, .5);
+  box-shadow: 0 5px 15px rgba(0,0,0, .25);
+  margin: 2em;
+}
+
+.box h2 {
+  margin: 0 0 20px; 
+  padding: 0;
+  font-size: 36px;
+  color:  #e62acd;
+  text-shadow: 3px 3px 2px #003333;
+}
+
+.box p {
+  margin: 0; 
+  padding: 0;
+  font-size: 16px;
+  color: #033333;
+  text-indent: 50px;
+}
+
+
+
+
+#cookies {
+   display: flex;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  flex-wrap: no-wrap;
+  text-wrap: wrap;
+  color: #000;
+  text-shadow: 2px 2px 3px #e62acd;
+  padding: 5em 5em;
+  margin-left: 8%;
+  background-size: cover;
+  height: auto;
+  width: auto;
+  align-items: center;
+  flex-direction: row-reverse;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1227154/sparkles.jpeg");
+}
+
+.special {
+  display: flex;
+  float: right;
+  position: sticky;
+
+} 
+
+#gifts {
+  display: grid;
+  color: #000;
+  text-shadow: 2px 2px 3px #e62acd;
+  padding: 5% 10%;
+  padding-top: 5%;
+  padding-bottom: 6%;
+  margin-left: 8%;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1227154/pastelRose.jpeg");
+  background-size: cover;
+  min-width: 2em;
+
+}
+
+  
+#galleryOfYum img {
+  width: 12em;
+  margin: 3%;
+  border-style: solid; 
+  border-color: #D4C4DE; 
+  border-width: 1em;
+  
+}
+
+#special {
+ 
+  display:flex; 
+  float: right;
+  
+}
+
+#strawberry {
+  height: 135px;
+}
+
+
+
+.coolness {
+
+  margin-top: 30%;
+  padding: 2em;
+  width: 40%;
+  margin: 4%;
+  border-style: solid; 
+
+
+  /*border-color: #D4C4DE; */
+}
+  
+  #galleryOfCool img {
+
+  margin-top: 30%;
+  width: 200px;
+  margin: 4%;
+  border-style: solid; 
+  border-width: 5px;
+  
+}
+
+
+#getNTouch {
+ padding-bottom: 0.7%;
+}
+
+#icons {
+  width: 100%;
+  text-align: center;
+}
+
+.cuteIcons  {
+
+  padding: 0.5%;
+  padding-top: 4%;
+  padding-right: 3%;
+  border-color: #000;
+  font-size: 300%;
+  text-align: center;
+    color: #ff00ff; 
+ 
+    
+  }
+
+#tweet {
+  margin-left: 3%;
+}
+
+.credit {
+ 
+  font-size: 12px;
+}
+
+#cred1 {
+  margin-top: 3%;
+}
+  
+  #theEnd {
+    color: magenta;
+   
+  } 
+
+#ending {
+  display: flex;
+  font-size: 100%;
+  flex-direction: row;
+  color: magenta; 
+justify-content: center;
+  width
+  padding: 3%;
+}
