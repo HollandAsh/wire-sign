@@ -16,11 +16,13 @@
 function isEven(val){
  
   if(val % 2 == 0) {
-    console.log(val + " is an even number.");
+   console.log(val + " is an even number.");
+   return true;
   }
   
   else {
     console.log(val + " is an odd number.");
+    return false;
   }
  
 }
